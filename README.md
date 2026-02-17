@@ -1,23 +1,29 @@
-# 🏥 SQL Hospital Data Analysis Project
+# 📚 Online Bookstore SQL Data Analysis Project
 
 ## 📌 Project Overview
-This project analyzes hospital data using SQL queries to extract meaningful insights.
+This project is based on an Online Bookstore database where I designed tables and analyzed data using SQL queries. The project demonstrates real-world database operations like table creation, data import, joins, and aggregations.
 
-## 🛠 Tools Used
+## 🗂 Dataset Files
+- Books.csv
+- Customers.csv
+- Orders.csv
+
+## 🛠 Tools & Technologies
 - PostgreSQL
-- pgAdmin
+- pgAdmin 4
 - SQL
 
-## 📊 Key Insights
-- Longest hospital stay analysis
-- Revenue calculation
-- Department-wise patient count
-- Window function usage
+## 🏗 Database Structure
+Three main tables were created:
+1. Books
+2. Customers
+3. Orders
 
-## 📂 Project Files
-- project.sql → All SQL queries
-- dataset.csv → Raw dataset
-- Screenshots → Output images
+Relationships:
+- Orders table references Books and Customers using Foreign Keys.
 
-## 🚀 Author
-Rohit Kavhale
+## 📊 Key SQL Concepts Used
+- CREATE TABLE
+- PRIMARY KEY & FOREIGN KEY
+- COPY (Import CSV)
+- SELECT Queries
